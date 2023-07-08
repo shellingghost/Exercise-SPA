@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(158, 241, 249);
+  padding: 100px;
+  margin: 100px;
+  color:#3f3bb4;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+  border: 12px solid rgb(77, 203, 197)
+}
+
+#top{
+  background-color: rgb(247, 252, 190);
+  padding: 30px;
+}
+
+#h1{
+  text-align:center
+}
+
+
+#p{
+  text-align:center
+}
+.footer{
+  float: right
+}
+input {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+select{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.App {
+  text-align: center;
+  color: black;
+  
+
+}
+
+.App-header {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+tr, td {
+  border: 1px solid #ddd;
+  padding: 18px;
+  color:rgb(18, 20, 20)
+}
+tr,th {
+  border: 1px solid rgb(42, 71, 75);
+  padding: 18px;
+  text-align: left;
+  background-color: #69b9ed;
+  color: white;
+}
+
+
+.button {
+  display: inline-block;
+  border: 2px double #697587;
+  color: #3f3bb4;
+  background-color: #8fbcd7; /* Green */
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px;
+  width: 100px;
+  margin: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.specbutton{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.table {
+  border-collapse: collapse;
+  border-color: black;
+  color: #0c0c10;
+}
